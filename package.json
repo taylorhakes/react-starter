@@ -1,0 +1,48 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "React, Redux, Observables, Webpack starter kit",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "rollup -c > build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylorhakes/react-starter.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "webpack",
+    "observable"
+  ],
+  "author": "Taylor Hakes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taylorhakes/react-starter/issues"
+  },
+  "homepage": "https://github.com/taylorhakes/react-starter#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-es2015-rollup": "^1.1.0",
+    "babel-preset-react": "^6.11.1",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.6.1",
+    "react-router-redux": "^4.0.5",
+    "redux": "^3.5.2",
+    "redux-observable": "^0.9.0",
+    "rollup": "0.34.1",
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-plugin-commonjs": "^3.3.1",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-uglify": "^1.0.1",
+    "rollup-watch": "^2.5.0",
+    "rxjs": "^5.0.0-beta.11",
+    "uglify-js": "^2.7.1"
+  }
+}
